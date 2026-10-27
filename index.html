@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Etalase – Toko Mini</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <nav class="nav" aria-label="Navigasi utama">
+    <a href="index.html" aria-current="page">Etalase</a>
+    <a href="form.html">Pesan</a>
+  </nav>
+
+  <header class="site-header">
+    <h1>Toko Mini</h1>
+    <p>Katalog produk dari DummyJSON. Klik “Pesan” untuk mengisi formulir.</p>
+  </header>
+
+  <main>
+    <section id="produk" aria-labelledby="judul-produk">
+      <div class="section-head">
+        <h2 id="judul-produk">Daftar produk</h2>
+        <label class="search">
+          <span>Cari produk</span>
+          <input type="search" id="cari" placeholder="mis. phone, mascara" autocomplete="off">
+        </label>
+      </div>
+
+      <p id="status" role="status" aria-live="polite"></p>
+      <ul id="daftar-produk" class="grid"></ul>
+    </section>
+  </main>
+
+  <footer>Tugas PPAW Week 6 · JavaScript DOM, Event Handling, Fetch API</footer>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
