@@ -17,3 +17,4 @@ textarea { resize: vertical; }
 .hasil dl { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: .4rem 1.25rem; }
 .hasil dt { color: var(--muted); }
 .hasil dd { margin: 0; }
+
